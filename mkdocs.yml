@@ -11,18 +11,12 @@ nav:
     - Home: index.md
     - About: about.md
     - Projects:
-      - Python Package: package/index.md
+      - Python Package: https://bd103.github.io/package
       - MkDocs Helper: https://mkdocs-helper.bd103.repl.co
       - Image Flipper: projects/image-flipper.md
       - Text Dump Engine: projects/text-dump-engine.md
       - Notepad: projects/notepad.md
-    - Python Package:
-      - Home: package/index.md
-      - Color: package/color.md
-      - Load: package/load.md
-      - Parser: package/parser.md
-      - Clear: package/clear.md
-      - Scroll: package/scroll.md
+    - Python Package: https://bd103.github.io/package
     - Ideas:
       - Home: ideas/index.md
       - Waveform: ideas/waveform.md

@@ -16,4 +16,4 @@ Ok, just joking. Here are some links:
 - [Github](https://github.com/BD103)
 
 ## What are some of your projects?
-Check out some of my projects, like [my PyPI Package](package/index.md) and [MkDocs Helper](https://mkdocs-helper.bd103.repl.co). You can also check out the projects section of this site.
+Check out some of my projects, like [my PyPI Package](https://bd103.github.io/package) and [MkDocs Helper](https://mkdocs-helper.bd103.repl.co). You can also check out the projects section of this site.
