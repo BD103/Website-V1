@@ -1,0 +1,44 @@
+site_name: BD103
+site_url: https://bd103.repl.co
+site_author: BD103
+copyright: Copyright &copy; 2020 BD103
+nav:
+    - Home: index.md
+    - About: about.md
+    - Projects:
+      - Python Package: package/index.md
+      - MkDocs Helper: https://mkdocs-helper.bd103.repl.co
+      - Image Flipper: projects/image-flipper.md
+      - Text Dump Engine: projects/text-dump-engine.md
+      - Notepad: projects/notepad.md
+    - Python Package:
+      - Home: package/index.md
+      - Color: package/color.md
+      - Load: package/load.md
+      - Parser: package/parser.md
+      - Clear: package/clear.md
+      - Scroll: package/scroll.md
+    - Ideas:
+      - Home: ideas/index.md
+      - Waveform: ideas/waveform.md
+    - Contact: contact.md
+    - License: license.md
+theme:
+    name: material
+    favicon: imgs/cpu-16.svg
+    palette:
+      scheme: default
+      primary: blue
+      accent: light blue
+    language: en
+    icon:
+      logo: octicons/cpu-24
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: octicons/code-review-16
+      link: https://repl.it/@BD103
+    - icon: fontawesome/brands/github
+      link: https://github.com/BD103
