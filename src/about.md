@@ -11,8 +11,8 @@ On earth. :P
 
 Ok, just joking. Here are some links:
 
-- [Site](https://bd103.repl.co)
-- [Repl.it](https:)
+- [Site](https://bd103.github.io)
+- [Repl.it](https://repl.it)
 - [Github](https://github.com/BD103)
 
 ## What are some of your projects?
