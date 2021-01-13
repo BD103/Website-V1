@@ -16,6 +16,10 @@ jobs:
         run: pip install -U mkdocs mkdocs-material Pygments
       - name: Build Site
         run: mkdocs build
+      - name: Config Git
+        run: |
+          git config --global user.name "BD103-Action"
+          git config --global user.email "dont@stalk.me"
       - name: Check for changes
         run: git status
       - name: Stage Changes
