@@ -1,0 +1,30 @@
+name: Build
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    name: Builds MkDocs Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Dependencies
+        run: pip install -U mkdocs mkdocs-material Pygments
+      - name: Build Site
+        run: mkdocs build
+      - name: Switch from HTTP to SSH
+        run: git remote set-url origin ${{ secrets.ssh }}
+      - name: Check for changes
+        run: git status
+      - name: Stage Changes
+        run: git add .
+      - name: Commit files
+        run: git commit -m "Build $(date +%D)"
+      - name: Fetch from master
+        run: git fetch origin master
+      - name: Push code to master
+        run: git push origin HEAD:master
