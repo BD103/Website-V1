@@ -16,8 +16,10 @@ jobs:
         run: pip install -U mkdocs mkdocs-material Pygments
       - name: Build Site
         run: mkdocs build
-      - name: Switch from HTTP to SSH
-        run: git remote set-url origin ${{ secrets.ssh }}
+      - name: Config Git
+        run: |
+          git config --global user.name "BD103-Action"
+          git config --global user.email "dont@stalk.me"
       - name: Check for changes
         run: git status
       - name: Stage Changes
