@@ -1,7 +1,7 @@
 site_name: BD103
 site_url: https://bd103.github.io
 site_author: BD103
-site_description: Personal Blog / Share Site of BD103
+site_description: Personal Blog / Portfolio of BD103
 repo_name: bd103.github.io
 repo_url: https://github.com/BD103/bd103.github.io
 copyright: Copyright &copy; 2020 BD103
@@ -11,16 +11,15 @@ nav:
     - Home: index.md
     - About: about.md
     - Projects:
-      - Python Package: https://bd103.github.io/package
+      - Python Package: https://github.com/BD103/Package/wiki
       - MkDocs Helper: https://mkdocs-helper.bd103.repl.co
       - Image Flipper: projects/image-flipper.md
       - Text Dump Engine: projects/text-dump-engine.md
       - Notepad: projects/notepad.md
-    - Python Package: https://bd103.github.io/package
+    - Tutorials:
+      - Make a Rest API with Python: tutorials/rest-api.md
     - Ideas:
-      - Home: ideas/index.md
       - Waveform: ideas/waveform.md
-    - Contact: contact.md
     - License: license.md
 theme:
     name: material
