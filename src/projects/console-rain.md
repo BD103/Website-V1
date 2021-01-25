@@ -1,5 +1,7 @@
 # [Console Rain](https://repl.it/@BD103/Rain?embed=1)
 
+> **Hint:** click the title to go to a fullscreen version of the program!
+
 Console Rain is just a simple program that similates falling rain drops using the [Blessings wrapper](https://github.com/erikrose/blessings).
 
 The Blessings wrapper, or Blessings, is a Python package that makes using the [Curses module](https://docs.python.org/3/library/curses.html) easier. It allows you to move around the cursor, get height and width of terminal, print colors, save a screen, and more.
