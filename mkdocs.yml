@@ -16,6 +16,10 @@ nav:
       - Image Flipper: projects/image-flipper.md
       - Text Dump Engine: projects/text-dump-engine.md
       - Notepad: projects/notepad.md
+      - PressPy: projects/presspy.md
+      - PyBookLib: projects/pybooklib.md
+      - Code Reference: https://bd103.github.io/reference
+      - Console Rain: projects/console-rain.md
     - Tutorials:
       - Make a Rest API with Python: tutorials/rest-api.md
     - Ideas:

@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://bd103.github.io/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/about/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/projects/image-flipper/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/projects/text-dump-engine/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/projects/notepad/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bd103.github.io/projects/presspy/</loc>
+     <lastmod>2021-01-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bd103.github.io/projects/pybooklib/</loc>
+     <lastmod>2021-01-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bd103.github.io/projects/console-rain/</loc>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/tutorials/rest-api/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/ideas/waveform/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bd103.github.io/license/</loc>
-     <lastmod>2021-01-23</lastmod>
+     <lastmod>2021-01-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
