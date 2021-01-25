@@ -6,14 +6,12 @@ Hi! I'm BD103. I do things, like code. Learn more [here](about.md).
 
 ## Most Recent Creation
 
-### [Notepad](https://notepad.bd103.repl.co)
-Notepad is a simple, well. Uh...
+### [Console Rain](https://repl.it/@BD103/Rain?embed=1)
 
-Notepad?
+Console Rain is just a simple program that similates falling rain drops using the [Blessings wrapper](https://github.com/erikrose/blessings).
 
-Yeah, that's the right word. It basically has two sections:
+The Blessings wrapper, or Blessings, is a Python package that makes using the [Curses module](https://docs.python.org/3/library/curses.html) easier. It allows you to move around the cursor, get height and width of terminal, print colors, save a screen, and more.
 
-1. A working plain text editor, with printing page support
-2. A working code editor! It highlights it all, with multi-language support!
+---
 
-If you want to see a working (maybe) demo, go to [notepad.bd103.repl.co](https://notepad.bd103.repl.co). Enjoy!
+<iframe height="400px" width="100%" src="https://repl.it/@BD103/Rain?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
