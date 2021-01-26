@@ -4,6 +4,7 @@ site_author: BD103
 site_description: Personal Blog / Portfolio of BD103
 repo_name: bd103.github.io
 repo_url: https://github.com/BD103/bd103.github.io
+edit_uri: edit/master/src
 copyright: Copyright &copy; 2020 BD103
 docs_dir: src
 site_dir: docs
