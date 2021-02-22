@@ -21,8 +21,9 @@ nav:
       - PyBookLib: projects/pybooklib.md
       - Code Reference: https://bd103.github.io/reference
       - Console Rain: projects/console-rain.md
-    - Tutorials:
-      - Make a Rest API with Python: tutorials/rest-api.md
+    - Posts:
+      - Make a Rest API with Python: posts/rest-api.md
+      - Exit Code 0 with Minecraft: posts/exit-0-mc.md
     - Ideas:
       - Waveform: ideas/waveform.md
     - License: license.md

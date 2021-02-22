@@ -13,10 +13,10 @@
         <meta name="author" content="BD103">
       
       
-        <link rel="canonical" href="https://bd103.github.io/tutorials/rest-api/">
+        <link rel="canonical" href="https://bd103.github.io/posts/rest-api/">
       
       <link rel="shortcut icon" href="../../imgs/cpu-16.svg">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
     
     
       
@@ -383,13 +383,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
       
       <label class="md-nav__link" for="nav-4">
-        Tutorials
+        Posts
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Tutorials" data-md-level="1">
+      <nav class="md-nav" aria-label="Posts" data-md-level="1">
         <label class="md-nav__title" for="nav-4">
           <span class="md-nav__icon md-icon"></span>
-          Tutorials
+          Posts
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -495,6 +495,18 @@
   
 </nav>
       
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exit-0-mc/" class="md-nav__link">
+        Exit Code 0 with Minecraft
+      </a>
     </li>
   
 
@@ -661,7 +673,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/BD103/bd103.github.io/edit/master/src/tutorials/rest-api.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/BD103/bd103.github.io/edit/master/src/posts/rest-api.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -906,12 +918,12 @@ static/
 <div class="highlight"><pre><span></span><code><span class="gp">$ </span>python
 <span class="go">Python 3.8.7 (default, ...)</span>
 <span class="go">RaNdOm TeXt HeRe Ok FuN</span>
-<span class="gp">&gt;</span>&gt;&gt; import pickle
-<span class="gp">&gt;</span>&gt;&gt; <span class="nv">token</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&quot;123456&quot;</span>, <span class="s2">&quot;abcdef&quot;</span>, <span class="s2">&quot;BD103WuzHere&quot;</span><span class="o">]</span>
-<span class="gp">&gt;</span>&gt;&gt; with open<span class="o">(</span><span class="s2">&quot;tokens.pkl&quot;</span>, <span class="s2">&quot;wb&quot;</span><span class="o">)</span> as p:
+<span class="go">&gt;&gt;&gt; import pickle</span>
+<span class="go">&gt;&gt;&gt; token = [&quot;123456&quot;, &quot;abcdef&quot;, &quot;BD103WuzHere&quot;]</span>
+<span class="go">&gt;&gt;&gt; with open(&quot;tokens.pkl&quot;, &quot;wb&quot;) as p:</span>
 <span class="go">...     pickle.dump(token, p, -1)</span>
 <span class="go">...</span>
-<span class="gp">&gt;</span>&gt;&gt; exit<span class="o">()</span>
+<span class="go">&gt;&gt;&gt; exit()</span>
 <span class="gp">$ </span>clear
 </code></pre></div>
 <p>Make sure to use correct indentation for the <code>pickle.dump(...)</code> line. The <code>$</code> represents a bash command, so something that you run in the command line. The <code>&gt;&gt;&gt;</code> represents a command that you run in the Python REPL. <code>...</code> represents indented script, so the contents of a loop, function, etc. Also, running <code>clear</code> at the end isn't necessary, but I like cleaning up after myself. To make sure that this script worked, check to see if <code>tokens.pkl</code> is in your program files. You can also replace the values inside <code>token</code> to any password you want. I must say, though, <strong><code>.pkl</code> files are binary. Any normal computer will have trouble reading it, but Replit is weird and will render all the text in the file when viewed. This means that your passwords can be seen by anyone with the repl link. I recommend setting up an external server, like MongoDB, to store actual passwords if you want to do this professionally.</strong></p>
@@ -1002,13 +1014,13 @@ poetry.lock
           </a>
         
         
-          <a href="../../ideas/waveform/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../exit-0-mc/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Waveform
+                Exit Code 0 with Minecraft
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -1061,8 +1073,8 @@ poetry.lock
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.53cc9318.min.js"></script>
-      <script src="../../assets/javascripts/bundle.e9c9f54f.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
