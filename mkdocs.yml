@@ -19,7 +19,7 @@ nav:
       - Notepad: projects/notepad.md
       - PressPy: projects/presspy.md
       - PyBookLib: projects/pybooklib.md
-      - Code Reference: https://bd103.github.io/reference
+      - Code Reference: https://bd103.github.io/reference/
       - Console Rain: projects/console-rain.md
     - Posts:
       - Make a Rest API with Python: posts/rest-api.md
